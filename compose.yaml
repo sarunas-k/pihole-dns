@@ -1,0 +1,22 @@
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:2026.10.0
+    restart: unless-stopped
+
+    environment:
+      TZ: "Europe/Vilnius"
+      DNSMASQ_USER: "pihole"
+      FTL_CMD: "no-daemon"
+
+    volumes:
+      - /share/Container/pihole/etc-pihole:/etc/pihole
+
+    networks:
+      qnap_lan:
+        ipv4_address: 192.168.1.113
+
+networks:
+  qnap_lan:
+    external: true
+    name: qnet-static-eth0-79e6cc

@@ -1,0 +1,7 @@
+.env
+backups/
+data/
+etc-pihole/
+*.db
+*.tar.gz
+*.zip

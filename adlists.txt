@@ -1,0 +1,12 @@
+## Blocklists
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt
+https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
+https://adaway.org/hosts.txt
+
+## Allowlists (subscribe as allow, not block)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral-native.txt
